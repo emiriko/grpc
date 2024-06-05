@@ -24,7 +24,7 @@ message PaymentResponse {
 }
 
 message TransactionRequest {
-    bool user_id = 1;
+    string user_id = 1;
 }
 
 message TransactionResponse {
